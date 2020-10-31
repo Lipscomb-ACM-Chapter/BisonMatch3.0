@@ -3,6 +3,27 @@
 
 BisonMatch is a fun Valentines Day Matching Service for Lipscomb University students. Create your profile, take the quiz, buy your results, and find your match! All proceeds go to the Lipscomb University ACM Chapter.
 
+## Requirements
+
+- django 2.0.2
+- python3
+- python virtualenv
+- mysqlclient
+- secret key
+
+## Getting Started
+
+1. Clone repo
+
+2. add python virtual env to repo
+
+`python3 -m venv env`
+
+
+3. ` python3 manage.py migrate`
+
+4. `python3 manage.py runserver`
+
 1. Install django version 2.0.2
 
 2. Install the mysqlclient:
@@ -56,6 +77,13 @@ notify_url=https://myapp.com/url_to_notify
 
 Use python3 to avoid confusion.
 Digital Ocean Django droplet for server, Talk to Becky Tallon to point domain name "bisonmatch.info" to server ip address and use masking.
+
+
+## TODO 
+
+get database working
+query broken
+sql stuff broken
 
 
 ## TODO: Version 4 Changes & Improvements:
